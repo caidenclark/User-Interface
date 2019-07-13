@@ -67,9 +67,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 877px;
-	height: 1500px;
 	margin: auto;
-	border: 1px solid red;
 }
 
 header nav {
@@ -126,4 +124,48 @@ header .logo {
 	display: inline-block;
 	width: 350px;
 	margin-left: 125px;
+}
+
+.content {
+	border-top: 2px solid black;
+	margin-top: 100px;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+.features {
+	width: 50%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.about {
+	display: inline-block;
+	width: 49%;
+}
+
+.services {
+	margin-top: 40px;
+	display: inline-block;
+	width: 33%;
+}
+
+.product {
+	display: inline-block;
+	width: 33%
+}
+
+.vision {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+footer {
+	margin-top: 75px;
+	text-align: center;
 }
