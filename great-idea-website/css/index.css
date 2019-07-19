@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 877px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+header nav a {
+	margin: 25px;
+	color: gray;
+	text-decoration-line: none;
+	vertical-align: 10px;
+}
+
+header nav a:hover {
+	color: black;
+}
+
+header .logo {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.banner {
+	display: inline-block;
+	vertical-align: 50px;
+	margin-left: 100px;
+}
+
+.banner h1 {
+	font-size: 70px;
+	text-align: center;
+	
+}
+
+
+.banner .button {
+	border: 2px solid gray;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 3px 25px;
+	margin-left: 75px;
+	text-decoration-line: none;
+}
+
+.banner .button:hover {
+	color: white;
+	background: black;
+}
+
+
+.circlecode {
+	display: inline-block;
+	width: 350px;
+	margin-left: 125px;
+}
+
+.content {
+	border-top: 2px solid black;
+	margin-top: 100px;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+.features {
+	width: 50%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.about {
+	display: inline-block;
+	width: 49%;
+}
+
+.services {
+	margin-top: 40px;
+	display: inline-block;
+	width: 33%;
+}
+
+.product {
+	display: inline-block;
+	width: 33%
+}
+
+.vision {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+footer {
+	margin-top: 75px;
+	text-align: center;
+}
